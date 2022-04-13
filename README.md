@@ -1,2 +1,3 @@
 # Basecamp42
-Excercicios 42
+   abril de 2022
+Minhas soluções para as atividades propostas no basecamp da 42.
