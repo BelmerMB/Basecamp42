@@ -1,0 +1,45 @@
+./rush01 2 3 4 1 2 2 1 2 2 1 2 2 1 4 3 2
+
+	
+			FUNÇÃO PARA VALIDAR AS VISTAS
+			
+			CONTE QUANTOS NUMERO ELE "ENXERGA" OU SEJA O PRIMEIRO NUMERO FOR 4 ELE ENXERGA 1 // constante
+			SE O PRIMEIRO NUMERO FOR 3 ELE SÓ ENXERGA 2  etc "constante"
+			SE O PRIMEIRO NUMERO FOR 2 ELE PODE ENXERGAR 2 OU 3 
+			se o primeiro numero for 1 ele pode enxergar de 2 até 4 
+			
+			se o primeiro numero for 3 ele não enxerga 2
+			se o primeiro numero for 2 ele não enxerga 1, 2 ou 3 
+	
+	
+	recebe a qtd de vistas e compara com vetor de preenchimento
+	
+	
+	
+											     P S T Q
+	int func(vista[], qtd_a_ver)   // 3 vista  = 1 2 3 4
+		
+		int i;
+		int count_v;
+		
+		i = 0;
+		count_v = 0;
+		
+		if(vista[0] == 3)
+			return (2);
+		else if (vista[0] == 4)
+			return (1);
+		
+		while(i < 3)
+			if(vista[i] < vista[i+1])	se a primeira vista for menor que a vista sequinte
+				count_v++;				
+			i++;
+			}
+		return (count_v + 1);
+		
+		
+		
+		
+		
+		retornar verdadeiro ou falso se a vista conrresponder 
+	

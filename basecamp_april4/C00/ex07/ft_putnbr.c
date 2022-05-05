@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: emetras- <emetras-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: _Bot_B <elmermetrasbrum@gmail.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/17 21:54:26 by emetras-          #+#    #+#             */
-/*   Updated: 2022/04/17 22:23:18 by emetras-         ###   ########.fr       */
+/*   Updated: 2022/05/05 13:35:05 by _Bot_B           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ void	ft_putnbr(int nb)
 		nb = nb / 10;
 		count++;
 	}
-	numb[count] = '\0';
 	while (count >= 0)
 	{
 		write(1, &numb[count], 1);
