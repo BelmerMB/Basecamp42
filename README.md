@@ -1,4 +1,4 @@
 # Basecamp42
-   abril de 2022
-Minhas soluções para as atividades propostas no basecamp da 42.
-# atenção algumas atvds não passam na moulinnete
+   April, 2022
+My solutions for subjects in the  42basecamp.
+Please, don't copy the -42 is inevitable. 
